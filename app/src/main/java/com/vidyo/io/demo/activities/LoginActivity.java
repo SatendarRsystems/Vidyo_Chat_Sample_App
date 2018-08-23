@@ -24,7 +24,7 @@ import io.reactivex.disposables.Disposable;
 /**
  * Summary: Login Component
  * Description: This is Login screen where user enter his username & meeting id to join chat
- * @author R Systems
+ * @author RSI
  * @date 16.08.2018
  */
 public class LoginActivity extends BaseActivity implements Connector.IConnect {
@@ -32,11 +32,11 @@ public class LoginActivity extends BaseActivity implements Connector.IConnect {
     /**
      * Declare view objects
      */
-    Button buttonJoinMeeting;
-    EditText editTextUsername;
-    EditText editTextMeetingId;
-    CoordinatorLayout coordinatorLayout;
-    FrameLayout vidyoLayout;
+    private Button buttonJoinMeeting;
+    private EditText editTextUsername;
+    private EditText editTextMeetingId;
+    private CoordinatorLayout coordinatorLayout;
+    private FrameLayout vidyoLayout;
 
     /**
      * Declare chat connector object

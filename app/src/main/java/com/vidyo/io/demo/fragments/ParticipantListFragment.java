@@ -16,22 +16,21 @@ import com.vidyo.VidyoClient.Endpoint.Participant;
 import com.vidyo.io.demo.R;
 import com.vidyo.io.demo.adapters.ParticipantListAdapter;
 import com.vidyo.io.demo.storage.SharedStorage;
-
 import java.util.ArrayList;
 
 /**
  * Summary: Participant Fragment Component
  * Description: Show participants list on participants page
- * @author R Systems
+ * @author RSI
  * @date 17.08.2018
  */
 public class ParticipantListFragment extends Fragment {
     private RecyclerView recyclerViewParticipant;
     private ParticipantListAdapter participantListAdapter;
     private ArrayList<Participant> listParticipant;
-    TextView textViewMeetingId;
-    TextView textViewUserName;
-    TextView textViewTotalMembers;
+    private TextView textViewMeetingId;
+    private TextView textViewUserName;
+    private TextView textViewTotalMembers;
 
     public ParticipantListFragment() {
     }

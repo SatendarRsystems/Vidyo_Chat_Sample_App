@@ -11,15 +11,12 @@ import android.widget.TextView;
 import com.vidyo.io.demo.R;
 import com.vidyo.io.demo.model.ChatMessageBean;
 import com.vidyo.io.demo.utilities.NameBadgeUtil;
-
 import java.util.ArrayList;
-
-
 
 /**
  * Summary: Adapter Component
  * Description: Adapter to bind chat messages to recyclerview
- * @author R systems
+ * @author RSI
  * @date 20.08.2018
  */
 public class ChatMessagesAdapter extends RecyclerView.Adapter {

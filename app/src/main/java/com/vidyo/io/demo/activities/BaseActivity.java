@@ -18,11 +18,11 @@ import com.vidyo.io.demo.R;
  * Summary: Base Activity Component
  * Description: This will handle all the common activity tasks. This activity will be extended in all the activities.
  * used for common methods
- * @author R systems
+ * @author RSI
  * @date 16.08.2018
  */
 public class BaseActivity extends AppCompatActivity {
-    ProgressDialog dialog;
+    private ProgressDialog dialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

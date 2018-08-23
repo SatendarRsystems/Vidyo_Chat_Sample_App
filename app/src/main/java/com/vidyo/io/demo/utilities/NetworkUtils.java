@@ -6,8 +6,9 @@ import android.net.NetworkInfo;
 import com.vidyo.io.demo.application.MainApplication;
 
  /**
- * Check the internet connection
- * @author R Systems
+ * Summary : Check the internet connection
+ * Description : This class ensure the network connection and other network utilities
+ * @author RSI
  * @date 20.08.2018
  */
 public class NetworkUtils {

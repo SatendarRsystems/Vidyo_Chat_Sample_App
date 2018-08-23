@@ -2,7 +2,8 @@ package com.vidyo.io.demo.model;
 
 /**
  * Summary: POJO class for getAccessToken api response
- * @author R Systems
+ * Description: GetAccessTokenResponseBean use for parsing the json api and getter setter
+ * @author RSI
  * @date 20.08.2018
  */
 

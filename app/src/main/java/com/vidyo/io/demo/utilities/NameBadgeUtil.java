@@ -8,14 +8,13 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.util.DisplayMetrics;
-
 import com.vidyo.io.demo.R;
-
 import java.util.Random;
 
 /**
- * Utility class to generator name badges
- * @author R Systems
+ * Summary :Utility class to generator name badges
+ * Description : This class is used to show the participant Name in different circle color
+ * @author RSI
  * @date 20.08.2018
  */
 public class NameBadgeUtil {

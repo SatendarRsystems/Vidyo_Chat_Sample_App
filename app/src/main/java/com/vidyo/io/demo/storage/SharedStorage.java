@@ -4,8 +4,9 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 /**
+ * Summary : SharedStorage class to store the data in key value pair
  * Description: Used for SharedPreference to store username and meeting id
- * @author R Systems
+ * @author RSI
  * @date 17.08.2018
  */
 

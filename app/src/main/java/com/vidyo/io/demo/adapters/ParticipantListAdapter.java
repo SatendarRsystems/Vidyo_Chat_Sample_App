@@ -8,19 +8,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.vidyo.VidyoClient.Endpoint.Participant;
 import com.vidyo.io.demo.R;
 import com.vidyo.io.demo.utilities.NameBadgeUtil;
-
 import java.util.ArrayList;
 import java.util.List;
-
 
 /**
  * Summary: Adapter Component
  * Description: This is adapter for participants list
- * @author R Systems
+ * @author RSI
  * @date 20.08.2018
  */
 public class ParticipantListAdapter extends RecyclerView.Adapter<ParticipantListAdapter.ItemHolder> {

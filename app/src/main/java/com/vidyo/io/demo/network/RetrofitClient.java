@@ -1,7 +1,6 @@
 package com.vidyo.io.demo.network;
 
 import android.util.Log;
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.vidyo.io.demo.constants.Constants;
@@ -16,8 +15,9 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * Class to create instance of retrofit
- * @author R Systems
+ * Summary : Class to create instance of retrofit
+ * Description: Iniatialize the Retrofit class and make the singlton class
+ * @author RSI
  * @date 16.08.2018
  */
 public class RetrofitClient {

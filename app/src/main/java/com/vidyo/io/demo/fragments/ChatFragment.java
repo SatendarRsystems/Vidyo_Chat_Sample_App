@@ -19,13 +19,12 @@ import com.vidyo.io.demo.adapters.ChatMessagesAdapter;
 import com.vidyo.io.demo.connector.ChatConnector;
 import com.vidyo.io.demo.model.ChatMessageBean;
 import com.vidyo.io.demo.utilities.NetworkUtils;
-
 import java.util.ArrayList;
 
 /**
  * Summary: Chat Fragment Component
  * Description: Show chat messages on chatting screen
- * @author R Systems
+ * @author RSI
  * @date 17.08.2018
  */
 public class ChatFragment extends Fragment {
@@ -33,9 +32,9 @@ public class ChatFragment extends Fragment {
     /**
      * Declare view objects
      */
-    RecyclerView recyclerViewChat;
-    ImageButton imageButtonSendMessage;
-    EditText editTextMessage;
+    private RecyclerView recyclerViewChat;
+    private ImageButton imageButtonSendMessage;
+    private EditText editTextMessage;
 
     /**
      * Declare chat message array list & adapter

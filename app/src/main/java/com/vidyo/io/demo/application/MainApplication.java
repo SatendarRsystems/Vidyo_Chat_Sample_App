@@ -6,7 +6,7 @@ import android.app.Application;
 /**
  * Summary: MainApplication Component
  * Description: Calls when the application starts
- * @author R Systems
+ * @author RSI
  * @date 16.08.2018
  */
 public class MainApplication extends Application {

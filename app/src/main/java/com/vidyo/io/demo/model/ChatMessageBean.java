@@ -4,7 +4,8 @@ import com.vidyo.VidyoClient.Endpoint.ChatMessage;
 
 /**
  * Summary: Used for set get of user message
- * @author R Systems
+ * Description: ChatMessageBean use for parsing the json api and getter setter
+ * @author RSI
  * @date 20.08.2018
  */
 public class ChatMessageBean {

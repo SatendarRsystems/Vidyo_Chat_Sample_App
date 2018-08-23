@@ -2,7 +2,7 @@ package com.vidyo.io.demo.constants;
 /**
  * Summary: Constants Component
  * Description: Constants to be used in application
- * @author shah.altamash
+ * @author RSI
  * @date 17.08.2018
  */
 public class Constants {

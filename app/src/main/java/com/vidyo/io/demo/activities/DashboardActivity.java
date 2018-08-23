@@ -24,7 +24,7 @@ import java.util.ArrayList;
 /**
  * Summary: Dashboard Component
  * Description: Dashboard container for fragments
- * @author R Systems
+ * @author RSI
  * @date 16.08.2018
  */
 public class DashboardActivity extends BaseActivity implements Connector.IRegisterParticipantEventListener, Connector.IRegisterMessageEventListener {
@@ -32,8 +32,8 @@ public class DashboardActivity extends BaseActivity implements Connector.IRegist
     /**
      * Declare toolbar controls
      */
-    Toolbar toolbar;
-    TextView toolbarTitle;
+    private Toolbar toolbar;
+    private TextView toolbarTitle;
 
     /**
      * Declare & initialize fragment titles & toolbar icons

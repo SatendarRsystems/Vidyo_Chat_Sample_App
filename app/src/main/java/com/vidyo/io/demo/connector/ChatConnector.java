@@ -3,7 +3,6 @@ package com.vidyo.io.demo.connector;
 import android.app.Activity;
 import android.content.Context;
 import android.widget.FrameLayout;
-
 import com.vidyo.VidyoClient.Connector.Connector;
 import com.vidyo.VidyoClient.Connector.ConnectorPkg;
 import com.vidyo.io.demo.activities.LoginActivity;
@@ -12,7 +11,7 @@ import com.vidyo.io.demo.model.GetAccessTokenResponseBean;
 /**
  * Summary: ChatConnector Component
  * Description:used for create a instance Connector
- * @author R Systems
+ * @author RSI
  * @date 17.08.2018
  */
 public class ChatConnector {
