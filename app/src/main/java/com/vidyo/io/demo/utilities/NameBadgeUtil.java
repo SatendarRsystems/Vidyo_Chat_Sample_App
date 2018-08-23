@@ -18,7 +18,7 @@ import java.util.Random;
  * @date 20.08.2018
  */
 public class NameBadgeUtil {
-    int[] androidColors;
+    private int[] androidColors;
 
     public NameBadgeUtil(Activity mActivity) {
         this.androidColors = mActivity.getResources().getIntArray(R.array.androidcolors);

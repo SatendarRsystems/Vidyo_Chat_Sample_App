@@ -39,8 +39,8 @@ public class ChatFragment extends Fragment {
     /**
      * Declare chat message array list & adapter
      */
-    ArrayList<ChatMessageBean> chatMessageBeanArrayLists;
-    ChatMessagesAdapter chatMessagesAdapter;
+    private ArrayList<ChatMessageBean> chatMessageBeanArrayLists;
+    private ChatMessagesAdapter chatMessagesAdapter;
 
     /**
      * Declare chat connector object

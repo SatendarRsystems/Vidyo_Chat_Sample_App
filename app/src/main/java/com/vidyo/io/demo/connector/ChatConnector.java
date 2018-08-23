@@ -18,7 +18,7 @@ public class ChatConnector {
 
     public static ChatConnector chatConnector;
     public static Connector vidyoConnector = null;
-    ChatConnector(){}
+    private ChatConnector(){}
 
     /**
      * Return instance of connector class

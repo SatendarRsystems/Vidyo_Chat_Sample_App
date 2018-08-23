@@ -41,12 +41,12 @@ public class LoginActivity extends BaseActivity implements Connector.IConnect {
     /**
      * Declare chat connector object
      */
-    ChatConnector chatConnector;
+    private ChatConnector chatConnector;
 
     /**
      * Declare api request service
      */
-    ApiRequestService apiRequestService;
+    private ApiRequestService apiRequestService;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

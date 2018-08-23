@@ -38,18 +38,18 @@ public class DashboardActivity extends BaseActivity implements Connector.IRegist
     /**
      * Declare & initialize fragment titles & toolbar icons
      */
-    String[] titles = new String[]{"Participants List", "Chat"};
-    int[] icons = new int[]{R.mipmap.ic_chat_white, R.mipmap.ic_users_white};
+    private String[] titles = new String[]{"Participants List", "Chat"};
+    private int[] icons = new int[]{R.mipmap.ic_chat_white, R.mipmap.ic_users_white};
 
     /**
      * Declare & initialize default fragment index
      */
-    int fragmentIndex = 0;
+    private int fragmentIndex = 0;
 
     /**
      * Declare fragment object to handle current fragment
      */
-    Fragment activeFragment;
+    private Fragment activeFragment;
 
 
     /**

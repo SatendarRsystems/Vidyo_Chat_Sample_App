@@ -8,10 +8,10 @@ package com.vidyo.io.demo.model;
  */
 
 public class GetAccessTokenResponseBean {
-    String accessToken;
-    String username;
-    String status;
-    String meetingId;
+    private String accessToken;
+    private String username;
+    private String status;
+    private String meetingId;
 
 
     public String getMeetingId() {
